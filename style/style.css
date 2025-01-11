@@ -1,0 +1,288 @@
+body {
+    background-color: rgba(241, 241, 243, 1);
+    padding: 50px;
+}
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .bd {
+    font-weight: medium;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    padding-left: 59.99px;
+    padding-top: 117px;
+  }
+  .description {
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+    padding-left: 59.99px;
+    margin-top: 16px;
+  }
+  .btn {
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .btn-primary {
+    padding-left: 59.99px;
+    margin-top: 24px;
+    margin-bottom: 117px;
+  }
+.banner {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.hero {
+    width: 474.03px;
+    height: 400px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   padding-right: 59.99px;
+}
+.card-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.profile {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.card-section-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.card-section-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+.first-card {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+.second-card {
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+.third-card {
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px 32px;
+    border-radius: 16px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.card-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.button {
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 32px;
+}
+.one {
+    background-color: rgba(84, 144, 245, 1);
+}
+.two {
+    background-color: rgba(9, 161, 92, 1);
+}
+.three {
+    background-color: rgba(255, 194, 57, 1);
+}
+.speech-section {
+    background-image: url("../B11A1--assignment-1/quotation.png");
+    background-size: 64px 64px;
+    
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.speech {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
+}
+.designationm {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.news-section {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+}
+.satelite {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.al-jazeera {
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.time {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+.news-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.news-button {
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    border: none;
+}
+.another-section {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    flex-direction: row-reverse;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 24px;
+    border-radius: 24px;
+}
+.donate {
+    text-align: center;
+}
+.donate-button {
+   padding: 40px 40px;
+   font-weight: bold;
+   font-size: 40px;
+   border-radius: 16px;
+   background-color: rgba(255, 255, 255, 1);
+   border: 2px solid rgba(14, 14, 14, 0.15);
+}
+.unique-button {
+    padding: 40px 40px;
+   font-weight: bold;
+   font-size: 40px;
+   border-radius: 16px;
+   background-color: rgba(198, 228, 214, 1);
+   border: 2px solid rgba(14, 14, 14, 0.15);
+}
+.donate-today {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.amount {
+    padding: 20px 40px;
+    width: 1032px;
+    margin-top: 32px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+}
+::placeholder {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate-now-button {
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 32px;
+    border: none;
+}
+.subscribe-section {
+    text-align: center;
+    padding: 80px 100px;
+    background-color: rgba(198, 228, 214, 1);
+    margin-top: 80px;
+    border-radius: 24px;
+}
+.subscribe-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.email-input {
+    padding: 18px 40px;
+    width: 600px;
+    border: none;
+    margin-bottom: 24px;
+   
+}
+.subscribe-button {
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+.end-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 80px;
+}
+.email-subscribe {
+    display: flex;
+    justify-content: center;
+   
+}
+.email-subscribe ::placeholder {
+   text-align: left;
+}
+.all-btn:hover {
+    background-color: red;
+}
